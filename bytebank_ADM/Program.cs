@@ -20,3 +20,6 @@ Console.WriteLine(hadassa.getBonificacao());
 gerenciador.Registra(hadassa);
 gerenciador.Registra(jonas);
 Console.WriteLine(gerenciador.getBonificacao());
+Funcionario ivani = new Funcionario();
+
+Console.WriteLine(Funcionario.TotalDeFuncionarios);
